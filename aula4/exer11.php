@@ -1,16 +1,17 @@
 <?php
 
 $m =0;
-$z = null;
-$x = readline();
+$z = "/";
+$x = 1; //readline();
 
 for ($i =0; $i <= $x; $i++)
 {
-    $y = readline();
+    $y = 1; //readline();
 
     for ($o=0; $o <= $y; $o++)
     {
-        $z += readline() + "/";
+        $q = "portugues"; //readline();
+        $z = $q + "/" + $z;
     }
     $l = explode("/", $z);
 
